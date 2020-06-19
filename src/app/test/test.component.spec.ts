@@ -27,5 +27,5 @@ describe('TestComponent', () => {
   it('should not fail', () => {
     const expectedResult: RequiredInput = { anyKey: 'anyValue' };
     expect(component.requiredInput).toEqual(expectedResult);
-  })
+  });
 });
