@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RequiredInput } from './test/test.component';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test-angular-selector-with-attribute';
+
+  requiredInput: RequiredInput = { anyKey: 'anyValue' };
 }
